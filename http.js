@@ -1,5 +1,5 @@
 const http = require('http');
-const port = 80;
+const port = 3000;
 
 const requestHandler = (req, res) => {
 	console.log(req.url);
